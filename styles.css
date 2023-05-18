@@ -5,3 +5,18 @@
   list-style: none;
   font-family: 'Roboto', sans-serif;
 }
+body {
+    margin: 2em;
+    background-color: azure;
+    font-size: 1.2em;
+}
+
+.wrapper {
+    min-width: 490px;
+    margin: 2em auto;
+    display: flex;
+}
+.col {
+    background-color: rgb(164, 175, 184);
+    margin: 1em;
+}
