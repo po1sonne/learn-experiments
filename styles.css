@@ -9,20 +9,23 @@
 body {
   background-color: aqua;
   color: black;
-  font-size: 3em;
+  font-size: 3.9em;
 }
+/* для body указываем цвет размер текста и размер шрифта */
 
 .container {
   border: 10px;
   border-style: solid;
   border-color: blueviolet;
 }
+/* для .container указываем border и его значения */
 
 .items {
-  background-color: red;
+  background-color: crimson;
   border: 1px;
   border-style: solid;
-  border-color: wheat;
+  border-color: rgb(129, 169, 243);
   text-align: center;
-  padding: 1%;
+  padding: 10px;
 }
+/* для дочернего элемента контейнера указываем цвета, border, цвета, центровку текста и отступы */
